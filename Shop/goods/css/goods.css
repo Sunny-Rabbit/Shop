@@ -1,0 +1,65 @@
+html, body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f6f8f9;
+  color: #43525d;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+p{
+  margin: 0;
+}
+
+h1{
+
+}
+
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+h3 span{
+  color: #ff7013;
+}
+
+.section-description{
+  text-align: center;
+}
+
+
+.container{
+  width: 1200px;
+  margin: 30px auto;
+}
+
+
+.goods-block{
+  margin: 80px 0;
+}
+
+.goods-cart{
+  width: 270px;
+  height: 365px;
+  margin: 0 15px;
+  background-color: #ffffff;
+  float: left;
+  text-align: center;
+  font-size: 18px;
+
+}
+.goods-cart img{
+  margin-top: 30px;
+}
+
+.goods-name{
+  margin: 5px;
+}
+
+.goods-price{
+  color: #ff7013;
+  margin: 15px;
+}
+

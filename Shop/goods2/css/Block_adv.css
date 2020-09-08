@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #f6f8f9;
+  color: #43525d;
+  font-family: Arial, Tahoma, sans-serif;
+}
+
+p{
+  margin: 0;
+}
+
+h1{
+
+}
+
+h3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 36px;
+  margin: 20px 0;
+}
+
+h3 span{
+  color: #ff7013;
+}
+
+.section-description{
+  text-align: center;
+}
+
+
+.container{
+  width: 1200px;
+  margin: 30px auto;
+}
+
+.block_adv{
+  width: 50%;
+  min-height: 100px;
+  background-color: #ffffff;
+  border: 1px solid #eaedef;
+  margin: 0 -2%;
+
+}
+
+.block_adv .sale{
+  width: 25%;
+  float: left;
+}
+
+.sale-img{
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/sale_img.png);
+  margin: 10px auto;
+  text-align: center;
+  font-size: 12px;
+  font-style: italic;
+  color: #ffffff;
+  padding-top: 23px;
+}
+
+.sale-img p{
+  font-size: 18px;
+}
+
+.block_adv .slogan{
+  width: 40%;
+  float: left;
+  margin: 0 2.2%;
+  text-align: left;
+  min-height: 100px;
+  position: relative;
+}
+
+.crossline{
+  width: 1px;
+  height: 45px;
+  background-color: #e6e6e6;
+  position: absolute;
+  top: 23px;
+  right: 5px;
+}
+
+.block_adv .slogan h3{
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: left;
+  margin: 0;
+  padding-top: 18px;
+}
+.block_adv .slogan p{
+  font-size: 12px;
+  margin: 5px;
+}
+
+.block_adv .adv-price{
+  width: 23%;
+  height: 100px;
+  float: left;
+  margin: 0 2%;
+  color: #ff5912;
+  font-size: 24px;
+  line-height: 100px;
+}
+
+.block_adv .adv-price img{
+  margin-right: 30px;
+
+}
